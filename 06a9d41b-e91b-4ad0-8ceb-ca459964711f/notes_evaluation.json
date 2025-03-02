@@ -1,0 +1,82 @@
+{
+    "clase_1": {
+        "metrics": {
+            "cosine similarity": 1.0,
+            "euclidean distance": 0.010459071,
+            "manhattan distance": 0.010459071,
+            "rouge": {
+                "rouge1": 0.29482071713147406,
+                "rouge2": 0.08835341365461848,
+                "rougeL": 0.16733067729083667
+            },
+            "bleu": 0.011758071391182238,
+            "bert_score_f1": 0.8400893807411194
+        },
+        "resumen_agentes": "El estudio del cerebro, con su estructura compleja compuesta por aproximadamente 86 mil millones de neuronas, ha sido fundamental para comprender la inteligencia humana, vinculando su función a la neuroanatomía, como el neocórtex y los diferentes lóbulos. La inteligencia, influenciada tanto por habilidades cognitivas innatas como adquiridas, se relaciona con teorías como la eficiencia neural. La neuroplasticidad, o la capacidad del cerebro para reorganizarse, es clave en el aprendizaje y la recuperación tras lesiones. Además, la inteligencia artificial se inspira en el cerebro humano, utilizando redes neuronales artificiales para abordar tareas específicas. Estudios de caso, como el estudio del cerebro de Einstein y el de los conductores de taxis de Londres, han proporcionado información sobre la relación entre el cerebro y la inteligencia. En resumen, el cerebro humano sigue siendo un campo de estudio infinito, con implicaciones directas en la comprensión de la inteligencia y la evolución tecnológica.",
+        "resumen_google": "El cerebro humano es un órgano complejo que desempeña un papel crucial en la inteligencia, un proceso cognitivo interno. Investigaciones indican que las regiones cerebrales responsables del procesamiento sinérgico de información tienden a expresar más genes relacionados con la inteligencia. La neurociencia estudia cómo diversos factores neurológicos influyen en las variaciones de inteligencia entre individuos y grupos. Mientras más conocimiento acumula el cerebro, mayor es la capacidad intelectual del individuo, lo que resalta la importancia del aprendizaje en el desarrollo de la inteligencia."
+    },
+    "clase_2": {
+        "metrics": {
+            "cosine similarity": 1.0,
+            "euclidean distance": 0.012950673,
+            "manhattan distance": 0.012950673,
+            "rouge": {
+                "rouge1": 0.33497536945812806,
+                "rouge2": 0.07960199004975124,
+                "rougeL": 0.187192118226601
+            },
+            "bleu": 0.02735370941212377,
+            "bert_score_f1": 0.8269048929214478
+        },
+        "resumen_agentes": "El aprendizaje heurístico se centra en el uso de reglas simples basadas en experiencias pasadas para tomar decisiones rápidas y efectivas ante problemas complejos o con información incompleta. Las heurísticas son especialmente valiosas en situaciones donde los recursos computacionales o el tiempo son limitados, aunque pueden introducir sesgos y errores sistemáticos. En inteligencia artificial, optimizan procesos como la búsqueda de rutas o la configuración de algoritmos de machine learning. Comparadas con algoritmos exactos, las heurísticas ofrecen soluciones rápidas sin garantizar la precisión, haciendo de ellas una herramienta crucial en aplicaciones como sistemas de recomendación, exploración robótica, y juegos de estrategia.",
+        "resumen_google": "El aprendizaje heurístico, también conocido como aprendizaje por descubrimiento, es un enfoque educativo que fomenta que los estudiantes adquieran conocimientos de manera autónoma mediante la exploración y el descubrimiento guiado por su curiosidad. Este método promueve un aprendizaje activo y empírico, motivando al alumno a involucrarse de manera directa en el proceso de aprendizaje. Se enfoca en el desarrollo de habilidades para resolver problemas a través de la exploración y el uso de elementos rutinarios en diferentes contextos, como la programación."
+    },
+    "clase_3": {
+        "metrics": {
+            "cosine similarity": 1.0,
+            "euclidean distance": 0.013031508999999997,
+            "manhattan distance": 0.013031508999999997,
+            "rouge": {
+                "rouge1": 0.43349753694581283,
+                "rouge2": 0.10945273631840796,
+                "rougeL": 0.22660098522167485
+            },
+            "bleu": 0.03164134773260722,
+            "bert_score_f1": 0.8635743856430054
+        },
+        "resumen_agentes": "El perceptrón es un modelo fundamental en la historia de la inteligencia artificial, introducido por Frank Rosenblatt en la década de 1950 para emular el funcionamiento del cerebro humano. Con una arquitectura simple que incluye entradas, pesos, un sesgo y una función de activación, el perceptrón es capaz de aprender ajustando sus pesos mediante un proceso iterativo. Sin embargo, su incapacidad para resolver problemas no lineales, como el problema XOR, limitó su aplicación, lo que llevó al desarrollo de redes neuronales multicapa para sortear esas limitaciones. A pesar de esto, el perceptrón sigue siendo una base importante para la comprensión y desarrollo de modelos de aprendizaje más complejos.",
+        "resumen_google": "El perceptrón es una neurona artificial fundamental en el campo de las redes neuronales, diseñado por Frank Rosenblatt. Actúa como un discriminador lineal y es una unidad básica de inferencia en modelos de aprendizaje automático y deep learning. Los perceptrones son cruciales para entender cómo funcionan las redes neuronales, ya que son los bloques de construcción de arquitecturas más complejas, como los perceptrones multicapa, que permiten a las máquinas aprender de datos mediante procesos de optimización."
+    },
+    "clase_4": {
+        "metrics": {
+            "cosine similarity": 1.0,
+            "euclidean distance": 0.0016171300000000013,
+            "manhattan distance": 0.0016171300000000013,
+            "rouge": {
+                "rouge1": 0.4234234234234234,
+                "rouge2": 0.10909090909090909,
+                "rougeL": 0.25225225225225223
+            },
+            "bleu": 0.033180451083173294,
+            "bert_score_f1": 0.846013069152832
+        },
+        "resumen_agentes": "Adaline (Adaptive Linear Neuron) y Madaline (Multiple Adaline) son modelos fundamentales en el desarrollo de redes neuronales, introduciendo conceptos de aprendizaje supervisado mediante minimización del error cuadrático y arquitecturas multicapa respectivamente. Adaline utiliza una estructura lineal para ajustarse a los datos, mientras que Madaline emplea múltiples nodos y una lógica de mayoría para manejar tareas más complejas. Ambos modelos han influido en las redes neuronales modernas, facilitando aplicaciones prácticas como la cancelación de eco y el reconocimiento de patrones. Además, los modelos asociativos complementan a Adaline y Madaline al permitir la asociación de patrones de entrada con salidas específicas.",
+        "resumen_google": "El Adaline (ADAptative LINear Element) es un tipo de red neuronal artificial desarrollado por el profesor Bernard Widrow y el estudiante Ted Hoff, destacándose por su uso en tareas de clasificación lineal. La Madaline es una extensión del modelo Adaline que incluye una capa oculta, mejorando su capacidad de aprendizaje no lineal.\n\nLos modelos asociativos en redes neuronales, también conocidos como RNA asociativas, están diseñados para tareas como el reconocimiento de patrones y la predicción, formando su topología a partir de grupos de neuronas que reflejan los atributos del problema a resolver, usadas frecuentemente en el ámbito de la inteligencia artificial para diversas aplicaciones."
+    },
+    "clase_5": {
+        "metrics": {
+            "cosine similarity": 1.0,
+            "euclidean distance": 0.0023653400000000005,
+            "manhattan distance": 0.0023653400000000005,
+            "rouge": {
+                "rouge1": 0.43200000000000005,
+                "rouge2": 0.12096774193548387,
+                "rougeL": 0.2
+            },
+            "bleu": 0.016365741130772448,
+            "bert_score_f1": 0.8238058686256409
+        },
+        "resumen_agentes": "El perceptrón es la base de las redes neuronales modernas, extendiéndose desde un modelo lineal simple a través del perceptrón continuo y el perceptrón multicapa (MLP) para manejar tareas más complejas. El perceptrón continuo utiliza funciones de activación suaves como la sigmoide para permitir transiciones entre clases, mientras que el MLP incluye múltiples capas, capturando representaciones no lineales y complejas de los datos gracias al uso de algoritmos como la retropropagación para ajustar los pesos de la red. Estas capacidades permiten a los MLPs abordar tareas avanzadas en reconocimiento de voz, imágenes y finanzas, adaptándose a problemas más complejos que los perceptrones simples no pueden resolver.",
+        "resumen_google": "El **Perceptrón Continuo** es una unidad básica de red neuronal que se utiliza para realizar cálculos que permiten detectar características en los datos. Actúa como una función matemática simplificada inspirada en una neurona biológica, utilizada en el contexto de redes neuronales artificiales. [Más información](https://datascientest.com/es/perceptron-que-es-y-para-que-sirve).\n\nEl **Perceptrón Multicapa**, por otro lado, es un tipo de red neuronal artificial que consiste en múltiples capas de neuronas. Permitiendo resolver problemas complejos que no pueden ser resueltos por un perceptrón simple. Es ampliamente utilizado en el aprendizaje supervisado y puede generar modelos predictivos para múltiples variables dependientes. [Más información](https://es.wikipedia.org/wiki/Perceptr%C3%B3n_multicapa)."
+    }
+}
