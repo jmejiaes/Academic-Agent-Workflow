@@ -2,8 +2,9 @@ import streamlit as st
 import os
 import sys
 
-sys.path.append(os.path.abspath("../agents"))  # Ajusta la ruta según tu estructura
-from agents import generate_contents
+# Ajusta la ruta del sistema para incluir el directorio padre
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+from agents.agents import generate_contents
 
 ENVIRONMENT = 'local'
 is_generated = False
@@ -34,7 +35,7 @@ def main():
             response_path = response.to_dict()["messages"][-1]["content"]
         # Display the response
         # markdown_file = '../outputs/generated_ae0e59ee-d097-41fb-92e5-8adf96af714e/output.md'
-        markdown_content = load_markdown('../outputs/'+response_path+'/output.md')
+        markdown_content = load_markdown('outputs/'+response_path+'/output.md')
         
 
         # Display the content    

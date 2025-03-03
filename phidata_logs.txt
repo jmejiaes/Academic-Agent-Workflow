@@ -1,1 +1,0 @@
-2025-03-02 10:15:46,487 - INFO - Este mensaje se guardará en el archivo de logs.
