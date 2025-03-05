@@ -176,3 +176,4 @@ phidata_*
 # Output
 generated_*
 generated-*
+.vscode

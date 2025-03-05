@@ -34,7 +34,7 @@ google_agent = Agent(
 embedder = OpenAIEmbedder(model="text-embedding-ada-002")
 
 # Directorio base que contiene las carpetas de cada clase.
-base_dir = "06a9d41b-e91b-4ad0-8ceb-ca459964711f"
+base_dir = input('Please provide the base directory') # base_dir = "06a9d41b-e91b-4ad0-8ceb-ca459964711f"
 
 # Diccionario para almacenar los resultados de evaluación.
 evaluation_results = {}
