@@ -99,7 +99,8 @@ def generate_contents(text):
 
     # Crear un directorio único para esta ejecución usando un UUID
     output_path: str = 'generated-'+str(uuid.uuid4())
-    base_output_dir = '../outputs/' + output_path
+    base_output_dir = 'outputs/' + output_path
+    print(f'-----------------------------{base_output_dir}')
     os.makedirs(base_output_dir, exist_ok=True)
     print(f"Directorio base de salida: {base_output_dir}")
 
@@ -122,11 +123,8 @@ def generate_contents(text):
 
     # Iterar sobre cada fragmento de clase
     for index, class_markdown in enumerate(classes):
-        print(f'Classes - Markdown:  -->  {class_markdown}')
-        print()
         if class_markdown.strip():
             print(f"\nProcesando Clase {index}...")
-            
             # Crear un directorio para la clase dentro del directorio base
             class_dir = os.path.join(base_output_dir, f"clase_{index}")
             os.makedirs(class_dir, exist_ok=True)
