@@ -100,9 +100,12 @@ def generate_contents(text):
     # Crear un directorio único para esta ejecución usando un UUID
     output_path: str = 'generated-'+str(uuid.uuid4())
     base_output_dir = 'outputs/' + output_path
-    print(f'-----------------------------{base_output_dir}')
     os.makedirs(base_output_dir, exist_ok=True)
+
+    # Imprimir la ruta del directorio base de salida
+    print('-----------------------------')
     print(f"Directorio base de salida: {base_output_dir}")
+    print('-----------------------------')
 
     # Generar un resumen general del contenido
     organizer_response = organizer.run(text)
